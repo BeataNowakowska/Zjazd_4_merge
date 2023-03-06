@@ -7,7 +7,7 @@ def sprawdz_zakres_i_zamien_jedna_liczbe():
     if liczba <= -1000 or liczba >= 1000:
         print("Poza zakresem")
     else:
-        print(liczba + " po zamianie " + str(zamien_jedna(liczba)))
+        print(str(liczba) + " po zamianie: " + str(zamien_jedna(liczba)))
 
 
 def zamieniaj_w_petli():
